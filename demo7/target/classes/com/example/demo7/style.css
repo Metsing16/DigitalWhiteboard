@@ -1,0 +1,144 @@
+/* Overall Styling */
+.root {
+    font-family: 'Arial', sans-serif;
+    -fx-background-color: #2B2B2B; /* Dark background for the whole application */
+}
+
+.border-pane {
+    -fx-background-color: #1C1C1C; /* Deep black background */
+}
+
+/* Left Toolbar - Gothic Theme */
+.vbox {
+    -fx-background-color: #1A1A1A; /* Dark charcoal gray */
+    -fx-padding: 20px;
+    -fx-spacing: 15px;
+    -fx-alignment: top-left;
+    -fx-border-radius: 8px;
+}
+
+.vbox .button {
+    -fx-background-color: #3A3A3A; /* Dark gray for buttons */
+    -fx-text-fill: #F2E9E4; /* Off-white text color for readability */
+    -fx-padding: 12px;
+    -fx-font-size: 14px;
+    -fx-border-radius: 8px;
+    -fx-cursor: hand;
+    -fx-border-color: #8E1C1C; /* Vibrant red border */
+    -fx-border-width: 2px;  /* Slightly thicker border for vibrancy */
+}
+
+.vbox .button:hover {
+    -fx-background-color: #2E2E2E; /* Darker gray on hover */
+    -fx-border-color: #F25D5D; /* Lighter vibrant red for hover effect */
+}
+
+.vbox .button:selected {
+    -fx-border-color: #1c8e8e; /* Dark red accent for selected button */
+    -fx-border-width: 2px;  /* Thicker stroke for emphasis */
+    -fx-background-color: transparent; /* No fill color */
+    -fx-text-fill: #F2E9E4; /* Light text color for contrast */
+}
+
+/* Selected Mode Styling */
+.vbox .button.selected {
+    -fx-border-color: #1c8e8e; /* Dark red border for selected */
+    -fx-border-width: 2px;  /* Thicker stroke for emphasis */
+    -fx-background-color: transparent; /* No fill */
+    -fx-text-fill: #F2E9E4; /* Light text color */
+    -fx-font-weight: bold;
+}
+
+/* Brush Size Slider */
+.slider {
+    -fx-padding: 10px 0;
+}
+
+/* Media Control Section */
+.hbox {
+    -fx-padding: 20px;
+    -fx-spacing: 15px;
+    -fx-alignment: center;
+}
+
+.hbox .button {
+    -fx-background-color: #D4AF37; /* Gothic gold for media buttons */
+    -fx-text-fill: black;
+    -fx-padding: 12px;
+    -fx-font-size: 14px;
+    -fx-border-radius: 8px;
+    -fx-cursor: hand;
+    -fx-border-color: #8E1C1C; /* Vibrant red border for contrast */
+    -fx-border-width: 2px; /* Slight border for vibrancy */
+}
+
+.hbox .button:hover {
+    -fx-background-color: #B88B26; /* Slightly darker gold for hover effect */
+    -fx-border-color: #F25D5D; /* Lighter vibrant red for hover */
+}
+
+/* Canvas */
+.canvas {
+    -fx-border-color: #3B3B3B; /* Subtle dark border */
+    -fx-border-width: 2px;
+    -fx-background-color: #1F1F1F; /* Dark gray canvas for gothic look */
+}
+
+/* Scroll Pane */
+.scroll-pane {
+    -fx-background-color: #2B2B2B; /* Dark background */
+    -fx-padding: 10px;
+}
+
+/* Color Picker */
+.color-picker {
+    -fx-padding: 10px 0;
+}
+
+/* Text Field */
+.text-field {
+    -fx-padding: 10px;
+    -fx-background-color: #2A2A2A; /* Dark gray input field */
+    -fx-border-color: #4B4B4B; /* Subtle gray border */
+    -fx-border-radius: 5px;
+    -fx-text-fill: #F2E9E4; /* Light text color */
+}
+
+.text-field:focus {
+    -fx-border-color: #9B1B30; /* Dark red focus border */
+}
+
+/* Volume Slider */
+.volume-slider {
+    -fx-padding: 10px 0;
+}
+
+/* Miscellaneous */
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #F2E9E4; /* Off-white text color for all labels */
+}
+
+/* Button Focus Effect */
+.button:focused {
+    -fx-border-color: #9B1B30; /* Dark red border for focused buttons */
+    -fx-border-width: 3px;
+}
+
+/* Custom Background for Canvas Area */
+.canvas-stack {
+    -fx-background-color: #1F1F1F; /* Dark gray background for canvas */
+}
+
+/* Media View */
+.media-view {
+    -fx-border-color: #3B3B3B; /* Dark gray border for media controls */
+    -fx-border-width: 2px;
+}
+
+/* Alert Dialog */
+.alert {
+    -fx-background-color: #222222; /* Dark background for alert */
+    -fx-border-radius: 10px;
+    -fx-text-fill: #F2E9E4; /* Light text color */
+}
